@@ -1,0 +1,174 @@
+#form-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-2{
+    border: 1px solid rgb(0,251,255);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 4px;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(48deg, rgba(0,251,255,1) 0%, rgba(159,81,161,1) 100%);
+}
+
+#error-text{
+    color: #ffffff;
+}
+
+#form-main{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-3{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-4{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-5{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-6{
+    display: flex;
+    flex-direction: column;
+}
+
+#label-text{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+#name{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 18rem;
+    font-weight: 400;
+    font-family: "Inter";
+    border-radius: 4px;
+    background-color: gray;
+    opacity: .6;
+    color: #ffffff;
+    border: transparent;
+}
+
+#email{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 18rem;
+    font-weight: 400;
+    font-family: "Inter";
+    border-radius: 4px;
+    background-color: gray;
+    opacity: .6;
+    color: #ffffff;
+    border: transparent;
+}
+
+#password{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 18rem;
+    font-weight: 400;
+    font-family: "Inter";
+    border-radius: 4px;
+    background-color: gray;
+    opacity: .6;
+    color: #ffffff;
+    border: transparent;
+}
+
+#confirm_password{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 18rem;
+    font-weight: 400;
+    font-family: "Inter";
+    border-radius: 4px;
+    background-color: gray;
+    opacity: .6;
+    color: #ffffff;
+    border: transparent;
+}
+
+#name:focus{
+    outline: none;
+}
+
+#email:focus{
+    outline: none;
+}
+
+#password:focus{
+    outline: none;
+}
+
+#confirm_password:focus{
+    outline: none;
+}
+
+#name::placeholder{
+    color: #ffffff;
+}
+
+#email::placeholder{
+    color: #ffffff;
+}
+
+#password::placeholder{
+    color: #ffffff;
+}
+
+#confirm_password::placeholder{
+    color: #ffffff;
+}
+
+#form-7{
+    display: flex;
+    justify-content: end;
+    margin-top: 8px;
+}
+
+#button{
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+    border: #ffffff;
+}
